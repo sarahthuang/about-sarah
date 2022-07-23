@@ -20,6 +20,10 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+  .lit_proceeding_img {
+    height: 100px;
+    width: 180px;
+  }
   #Barnard_Logo {
     width: 100px;
   }
