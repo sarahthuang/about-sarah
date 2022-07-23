@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+    <!-- Page Setup -->
+    <meta charset="utf-8">
+    <title>Sarah T. Huang</title>
+    <meta name="description" content="Personal Page">
+    <meta name="author" content="Sarah Tsanlin Huang">
+
+    <!-- Mobile Specifications -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Bootstrap jQuery/JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
+
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <my-header></my-header>
+    <div class="container"> <!--Outer container for whole page-->
+      <!--Chinese Name -->
+      <div class="container">
+        <p class="chinesename">黄</p>
+        <p class="chinesename">璨</p>
+        <p class="chinesename">琳</p>
+        <div class="container p-3">
+          <h2>Sarah Huang is...</h2>
+          <span>A computer scientist, UX designer, artist, and language learner</span>
+          <br>
+          <span>This website details my work experience, projects, and other hobbies and interests. Hope you enjoy!</span>
+        </div>
+      </div>
+
+      <!--Education -->
+      <div class="container p-3">
+          <h2>Education</h2>
+          <div class="d-flex flex-row work_experience">
+            <div class="p-3 col-md-auto">
+              <img src="./images/Barnard_College_Logo.jpeg" id="Barnard_Logo">
+            </div>
+            <div class="p-3 col-6">
+              <div>
+                <big><b>Barnard College, Columbia University</b></big>
+                <br>
+                Bachelor of Arts, Computer Science
+                <br>
+                <i>Sept 2018 - May 2022</i>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="container p-3">
+        <h2>Work Experience</h2>
+         <!-- Work Exp 1 -->
+        <div class="d-flex flex-row">
+          <!-- Image -->
+          <div class="p-3 col-auto"><img src="./images/Columbia_University_Logo.png" id="Columbia_Logo"></div>
+          <!-- Work Experience Text -->
+          <div class="p-3 col-10">
+            <span><big><b>Columbia University Computational Design Lab</b></big></span>
+            <span class="date">Jun 2020 - Aug 2020</span>
+            <br>
+            <span class="text-muted">Research Intern</span>
+            <br>
+            <span>
+              Co-authored<a href="https://dl.acm.org/doi/abs/10.1145/3479566"> paper</a> addressing how to improve science writing through the usage of <a href="http://language-play.com/tech-tweets/tweetorial/1">scientific Twitter threads</a>
+            </span>
+            <br>
+            <span>
+              Drew up initial wireframes and aided in development of <a href="http://language-play.com/tech-tweets/tutorials">dynamic web application</a> teaching users how to compose Tweetorials.
+            </span>
+          </div>
+        </div>
+  
+        <!-- Work Exp 2 -->
+        <div class="d-flex flex-row">
+          <!-- Image -->
+          <div class="p-3 col-auto"><img src="./images/Carnegie_Mellon_Logo.png" id="CMU_Logo"></div>
+          <!-- Work Experience Text -->
+          <div class="p-3 col-10">
+              <span><big><b>Human Computer Interaction Institute (HCII)</b></big></span>
+              <span class="date">Jun 2021 - Aug 2021</span>
+              <br>
+              <span class="text-muted">Research Intern </span>
+              <br>
+              <span>
+                Programmed JavaScript/HTML animations using over 100 assets to add scenes into the <a href="http://www.cs.cmu.edu/~bmclaren/projects/DecimalPoint/">Decimal Point</a> codebase.
+              </span>
+              <br>
+              <span>
+                Attended weekly seminars discussing topics within educational technology, machine learning, and ethics in AI.
+              </span>
+          </div>
+        </div>
+
+        <!-- Work Exp 3 -->
+        <div class="d-flex flex-row">
+          <!-- Image -->
+          <div class="p-3 col-auto"><img src="./images/Bloomberg_Logo.png" id="Bloomberg_Logo"></div>
+          <!-- Work Experience Text -->
+          <div class="p-3 col-10">
+            <span><big><b>Bloomberg LP</b></big></span>
+            <span class="date">Jun 2019 - Aug 2019</span>
+            <br>
+            <span class="text-muted">Operations Intern</span>
+            <br>
+            <span>
+              Transformed visual data applications comparing pain points in user usage of IBM TRIRIGA database.
+            </span>
+            <br>
+            <span>Generated database workflows and documentation to increase logistical efficiency by 30%.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  <my-footer></my-footer>
+</body>
+</html>
