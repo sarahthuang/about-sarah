@@ -1,0 +1,34 @@
+.container, .col-md-auto {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .chinesename {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 150px;
+    display: inline-block;
+    margin-bottom: 0px;
+  }
+  .card {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .date {
+    float: right;
+  }
+  .h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  #Barnard_Logo {
+    width: 100px;
+  }
+  #CMU_Logo {
+    width: 100px;
+  }
+  #Columbia_Logo {
+    width: 100px;
+  }
+  #Bloomberg_Logo {
+    width: 100px;
+  }
