@@ -25,15 +25,75 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Navbar and Page Header-->
     <my-header></my-header>
-    
-    <div class="container p-3">
-        <h2>Literature Proceeding Cards</h2>
-        <img src="causal_brv_litprc.png" class="rounded float-left lit_proceeding_img" alt="...">
-        <img src="comic_infogrph_litprc.png" class="rounded float-left lit_proceeding_img" alt="...">
-        <img src="..." class="rounded float-right" alt="...">
-    </div>
 
+    <!-- Portfolio -->
+    <!-- From: https://www.youtube.com/watch?v=TX-mccLSS5E -->
+    <div class="container portfolio_container p-3">
+        <!-- Literature Proceeding Images-->
+        <div class="col-12">
+            <h2>Literature Proceeding Cards</h2>
+        </div>
+        <div class="images" data-content="r/science">
+            <div class="imgBx">
+                <img src="litcards/r:science.png" alt="img1">
+            </div>
+        </div>
+        <div class="images">
+            <div class="imgBx">
+                <img src="litcards/mepsbot.png" alt="img2">
+            </div>
+        </div>
+        <div class="images">
+            <div class="imgBx">
+                <img src="litcards/heteroglossia.png" alt="img3">
+            </div>
+        </div>
+        <div class="images">
+            <div class="imgBx">
+                <img src="litcards/comicinfographics.png" alt="img4">
+            </div>
+        </div>
+        <div class="images">
+            <div class="imgBx">
+                <img src="litcards/causalbrevity.png" alt="img5">
+            </div>
+        </div>
+        <div class="images">
+            <div class="imgBx">
+                <img src="litcards/lovelyrics.png" alt="img6">
+            </div>
+        </div>
+        <div class="images">
+            <div class="imgBx">
+                <img src="litcards/scitwtpreaching.png" alt="img7">
+            </div>
+        </div>
+        <div class="images">
+            <div class="imgBx">
+                <img src="litcards/ordsciintelligence.png" alt="img8">
+            </div>
+        </div>
+        <div class="popup">
+            <!-- https://teamtreehouse.com/community/not-understanding-what-the-times-is-doing -->
+            <span>&CircleTimes;</span>
+            <img src="" alt="img1">
+        </div>
+
+        <script>
+            document.querySelectorAll('.images img').forEach(image => {
+                image.onclick = () => {
+                    document.querySelector('.popup').style.display = 'block';
+                    document.querySelector('.popup img').src = image.getAttribute('src');
+                }
+            });
+            document.querySelector('.popup span').onclick = () => {
+                document.querySelector('.popup').style.display = 'none';
+            }
+        </script>
+    </div>
+    <!-- Footer -->
     <my-footer></my-footer>
 </body>
 </html>
